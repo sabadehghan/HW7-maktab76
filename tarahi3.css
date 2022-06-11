@@ -1,0 +1,98 @@
+.container {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  height: 735px;
+}
+.circle-top {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 0 0 0 100%;
+  background-color: rgb(20, 122, 225);
+  top: 0;
+  right: 0;
+}
+.item {
+  background-color: #fff;
+  width: 250px;
+  height: 350px;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgb(192, 188, 188);
+}
+.fa-map-marked-alt {
+  font-size: 36px;
+  color: rgb(20, 122, 225);
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.fa-outdent {
+  margin-left: 100px;
+  margin-top: 40px;
+  color: rgb(20, 122, 225);
+}
+.fa-money-check-alt {
+  font-size: 36px;
+  margin-left: 100px;
+  margin-top: 40px;
+  color: rgb(20, 122, 225);
+}
+.title {
+  font-family: cursive;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+.title-third {
+  margin-left: 55px;
+  font-family: cursive;
+}
+.paragraph {
+  font-family: sans-serif;
+  margin-top: 50px;
+  color: gray;
+  text-align: center;
+}
+.first-number {
+  border-radius: 50%;
+  position: absolute;
+  padding: 20px 25px;
+  border: 1px ridge rgb(248, 248, 248);
+  left: 390px;
+  top: 155px;
+  background-color: #fff;
+  font-size: 20px;
+}
+.second-number {
+  border-radius: 50%;
+  padding: 20px 25px;
+  border: 1px ridge rgb(248, 248, 248);
+  position: absolute;
+  background-color: #fff;
+  font-size: 20px;
+  bottom: 540px;
+  left: 730px;
+}
+.third-number {
+  border-radius: 50%;
+  padding: 20px 25px;
+  border: 1px ridge rgb(248, 248, 248);
+  position: absolute;
+  background-color: #fff;
+  font-size: 20px;
+  right: 400px;
+  bottom: 540px;
+}
+.circle-bottom {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100% 0 0;
+  background-color: rgb(20, 122, 225);
+}

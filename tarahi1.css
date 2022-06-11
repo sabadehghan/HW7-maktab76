@@ -1,0 +1,24 @@
+.container{
+        background-color: rgb(234, 226, 231);
+        display: flex;
+        flex-wrap: wrap;
+        height: 740px;
+        align-content: center;
+        justify-content: center;
+        
+}
+.item{
+        /* background-color: rgb(234, 226, 231); */
+        text-align: center;
+        /* padding: 10px; */
+        margin: 10px;
+        border: 2px solid black;
+        width: 450px;
+        height: 200px;
+        
+}
+.image{
+        background-size: cover;
+        width: 450px;
+        height: 200px;
+}
